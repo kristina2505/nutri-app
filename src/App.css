@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.App {
+  width: 100%;
+  min-height: 100vh;
+  /* background: url('https://lifecaremag.com/wp-content/uploads/2020/03/Living-A-Healthy-Lifestyle-768x512.jpg'); */
+  /* display: flex; */
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  filter: drop-shadow(20px 80px 3.75rem crimson);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

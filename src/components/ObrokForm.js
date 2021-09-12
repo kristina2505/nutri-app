@@ -25,17 +25,17 @@ function ObrokForm({dodajObrok}){
     }
 
     return(
-        <form onSubmit={handleDodajObrok}>
-            <div>
+        <form onSubmit={handleDodajObrok} class="forma">
+            <div style={{display : "flex"}}>
                 <label for="hrana">Obrok:</label>
                 <input onChange={handleObrokIputChange} value={obrok.hrana} name="hrana" type="text" placeholder="Unesite obrok..."></input>
                 
                 </div>
-                <div>
+                <div style={{display : "flex"}}>
                 <label for="kalorije">Kalorijska vrednost:</label>
                 <input onChange={handleKalorijeInputChange} value={obrok.kalorije} name="kalorije" type="number" placeholder="Unesite kalorije..."></input>
             </div>
-            <button type="submit">Dodaj obrok</button>
+            <button type="submit" class="dodajObrok">Dodaj obrok</button>
         </form>
     );
 }

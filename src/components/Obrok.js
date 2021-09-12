@@ -10,12 +10,11 @@ function Obrok({obrok, obrisiObrok}){
         <div style={{display: "flex"}}>
             <li
                 style={{
-                    color: "white",
-                    backgroundColor: "black"
+                    color: "white"
                 }}
             >{obrok.hrana}  -  {obrok.kalorije} kcal</li>
             
-            <button onClick={handleObrisiClick}>&#x232B;</button>
+            <button class="obrisiObrok" onClick={handleObrisiClick}>&#x232B;</button>
         </div>
     );
 }

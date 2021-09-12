@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import React, {useState, useEffect} from 'react';
+import { css, jsx } from "@emotion/react";
 import './App.css'; 
 import ObrokForm from './components/ObrokForm';
 import Output from './components/Output';
@@ -33,7 +34,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="Stranica">
       <header className="App-header">
         <section className="App">
           <Nav />
@@ -44,7 +45,7 @@ function App() {
             
            
             <Route path="/obroci">
-            <p>Unesite obrok:</p>
+            <p class="unos">Unesite obrok:</p>
             <ObrokForm dodajObrok={dodajObrok}/>
             <Output obroci={obroci} obrisiObrok={obrisiObrok}/> 
             </Route>

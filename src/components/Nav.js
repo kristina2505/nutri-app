@@ -6,8 +6,8 @@ class Nav extends Component{
         return(
            
               <ul class="menu">
-                <li class="first" title="Pocetna"><a href="/" class="home">Pocetna</a></li>
-                <li class="second" title="Vasi obroci"><a href="/obroci" class="fa fa-th-list">Vasi obroci</a></li>
+                <li class="first" title="Pocetna"><a href="/" class="home">Početna</a></li>
+                <li class="second" title="Vasi obroci"><a href="/obroci" >Vaši obroci</a></li>
             </ul>  
            
             
